@@ -1,0 +1,97 @@
+body{
+    background-color: #d8d0b6;
+    /* border: solid 2px white; */
+}
+.navbar{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.navbar a{
+    margin-left: 10px;
+    color: #200f03;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='brown' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+#L{
+    width:70px;
+    height:70px;
+}
+#cont{
+    /* background-color: #200f03; */
+    background-color: white;
+    margin-top: 10px;
+}
+.get_in_touch{
+    max-width:800px;
+    margin:50px auto;
+    position:relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+    background-color: white;
+}
+.get_in_touch .title{
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color:black; 
+}
+.contact-form .form-field{
+    position:relative;
+    margin: 32px 0;
+}
+.contact-form .input-text{
+    display:block;
+    width:100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #200f03 ;
+    font-size:18px;
+    line-height: 26px;
+    font-weight:400;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px)
+} 
+.contact-form .input-text:focus{
+    outline:none;
+}
+
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+    cursor:text;
+    transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn{
+    display: inline-block;
+    /* background-image: linear-gradient(125deg, #200f03,#d8d0b6) ; */
+    background-color: #341b09 ;
+    color: #d8d0b6 ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    
+}
+

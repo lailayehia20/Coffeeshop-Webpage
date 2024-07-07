@@ -1,0 +1,108 @@
+.card{
+    box-shadow: 2px 6px 8px 0 rgba(22,22,26,0.18);
+}
+.carousel-inner {
+    padding: 1em;
+  }
+.carousel-control-prev, .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: #e1e1e1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+
+}
+h3{
+    /* margin-right: 2px; */
+    /* text-align: center; */
+    margin-left: 24px;
+    /* text-shadow: #e1e1e1; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #200f03; */
+    font-weight: bold;
+    
+}
+body{
+    background-color: #d8d0b6;
+    /* border: solid 2px white; */
+}
+.btn{
+    background-color: #d8d0b6;
+    color:black;
+    border-color: #d8d0b6;
+}
+.btn :hover{
+    color: #d8d0b6;
+    background-color: #200f03;
+}
+#hot img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 568px){
+.cards-wrapper{
+    display: flex; 
+}
+.card{
+    margin:0.5em;
+    width: calc(100%/3);
+}
+.img-wrapper{
+    height: 22vw;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width:567px){
+    .card:not(:first-child){
+        display: none;
+    }
+
+}
+
+.img-wrapper img{
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.navbar a{
+    margin-left: 10px;
+    color: #200f03;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='brown' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+/* .navbar-toggler{
+    border-color:2px solid #200f03;
+} */
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+#L{
+    width: 70px;
+    height: 70px;
+}
+#cont{
+    /* background-color: #200f03; */
+    background-color: white;
+    margin-top: 10px;
+}
